@@ -20,7 +20,20 @@ var properties = Object.keys(shoppingCart);
 // how to find out the values from an object keys 
 var propertyValues = Object.values(shoppingCart);
 
-console.log(penCount);
-console.log(penCount2);
-console.log(properties);
-console.log(propertyValues);
+
+
+
+//process-1 set property values 
+shoppingCart.mouse = 15;
+console.log(shoppingCart);
+
+
+
+// process-2 set property values 
+shoppingCart['mouse'] = 40;
+console.log(shoppingCart);
+
+// console.log(penCount);
+// console.log(penCount2);
+// console.log(properties);
+// console.log(propertyValues);
